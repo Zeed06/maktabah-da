@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="1.png" alt="" width="50px">
+        <h1>Maktabah DA</h1>
+        </div>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Cari kitab..." oninput="onSearch()">
+            <img src="bitmap.png" alt="">
+        </div>
+        <button id="btnLogin" style="margin-left:20px;padding:8px 16px;border-radius:6px;background:cornflowerblue;color:#fff;border:none;cursor:pointer;">Login</button>
+        <button id="btnLogout" style="margin-left:10px;padding:8px 16px;border-radius:6px;background:#e74c3c;color:#fff;border:none;cursor:pointer;display:none;">Logout</button>
+    </header>
+    <div class="box-lemari">
+        <div class="lemari"><h1>Lemari 1</h1></div>
+        <div class="lemari"><h1>Lemari 2</h1></div>
+        <div class="lemari"><h1>Lemari 3</h1></div>
+    </div>
+    <main>
+        <nav>
+            <button onclick="tampil('aqidah')" class="btn" id="satu" data-no="1">Aqidah</button>
+            <button onclick="tampil('adab')" class="btn" id="satu" data-no="2">Adab</button>
+            <button onclick="tampil('fiqih')" class="btn" id="satu" data-no="3">Fiqih</button>
+            <button onclick="tampil('hadits')" class="btn" id="dua" data-no="4">Hadits</button>
+            <button onclick="tampil('mustholah')" class="btn" id="dua" data-no="5">Mustholah</button>
+            <button onclick="tampil('tarikh')" class="btn" id="tiga" data-no="6">Tarikh</button>
+            <button onclick="tampil('tafsir')" class="btn" id="tiga" data-no="7">Tafsir</button>
+            <button onclick="tampil('fatawa')" class="btn" id="tiga" data-no="8">Fataawa</button>
+        </nav>
+        <div class="content">
+        </div>
+    </main>
+    <script src="aqidah.js"></script>
+    <script src="tarikh.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
