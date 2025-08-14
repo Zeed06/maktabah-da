@@ -32,7 +32,7 @@ header {
     position: fixed;
     inset: 0 0 0 0;
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.758);
+    background-color: rgba(48, 183, 207, 0.616);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,7 +189,6 @@ main {
                 justify-content: center;
                 padding: 5px;
                 h1 {
-                color: rgb(41, 104, 221);
                 font-family: 'arab';
             }            
         }
